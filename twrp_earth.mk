@@ -12,7 +12,7 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := recovery_earth
+PRODUCT_NAME := twrp_earth
 PRODUCT_DEVICE := earth
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 12C

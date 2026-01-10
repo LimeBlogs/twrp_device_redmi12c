@@ -2,7 +2,7 @@
 
 int main() {
     // Execute the "logcat" command and redirect output to a file in /cache
-    std::system("logcat -b -all > /cache/recovery_earth_log.txt");
+    std::system("logcat -b -all > /cache/twrp_earth_log.txt");
 
     return 0;
 }
