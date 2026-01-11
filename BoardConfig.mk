@@ -129,7 +129,7 @@ RECOVERY_SDCARD_ON_DATA := true
 TARGET_NO_RECOVERY := false
 TW_HAS_NO_RECOVERY_PARTITION := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TARGET_USES_MKE2FS := true
 
 # Hardware
@@ -146,7 +146,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
-TW_DEVICE_VERSION := Build By Terentyeff
+TW_DEVICE_VERSION := Build By Lime
 TW_EXTRA_LANGUAGES := true
 TW_FRAMERATE := 60
 
@@ -201,10 +201,10 @@ ENABLE_SCHEDBOOST := true
 TWRP_EVENT_LOGGING := true
 
 # Set the default language, if not english
-TW_DEFAULT_LANGUAGE := en-US
+TW_DEFAULT_LANGUAGE := zh-CN
 
 # Battery
-# TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery/capacity
+W_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery/capacity
 
 # Disable mouse
 # TW_INPUT_BLACKLIST := "hbtp_vm"
@@ -226,7 +226,7 @@ PB_TORCH_PATH := "/sys/class/leds/flashlight"
 
 # SHRP
 SHRP_PATH := device/xiaomi/earth
-SHRP_MAINTAINER := Terentyeff
+SHRP_MAINTAINER := Lime
 SHRP_DEVICE_CODE := earth
 SHRP_FLASH := 1
 SHRP_FONP_1 := /sys/class/leds/flashlight/brightness
