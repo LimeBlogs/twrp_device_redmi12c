@@ -42,6 +42,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_ENABLE_APP_MANAGER=1
 	export FOX_DISABLE_APP_MANAGER=0
     export FOX_DELETE_MAGISK_ADDON=0
+	export OF_MAINTAINER_AVATAR=device/xiaomi/earth/avatar.png
+	export OF_SCREEN_TYPE=20:9
 
     # use system (ROM) fingerprint where available
     export OF_USE_SYSTEM_FINGERPRINT=1

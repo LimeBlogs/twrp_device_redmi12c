@@ -5,6 +5,8 @@ OF_MAINTAINER_PATCH_VERSION := 1
 OF_MAINTAINER := Lime
 # 这里的 1 代表这是第一个编译版本
 OF_MAINTAINER_AVATAR := device/xiaomi/earth/avatar.png
+OF_SPLASH_MAX_PASS := true
+OF_SCREEN_TYPE := 20:9
 
 # ==========================================
 # 2. 屏幕与UI配置 (【必改】请根据你机型修改)
