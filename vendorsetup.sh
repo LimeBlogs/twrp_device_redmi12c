@@ -17,7 +17,7 @@ fi
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export PLATFORM_VERSION="16.1.0"
 	export PLATFORM_SECURITY_PATCH="2024-05-03"
-	export TW_DEFAULT_LANGUAGE="en"
+	export TW_DEFAULT_LANGUAGE="zh_CN"
 	export LC_ALL="C"
 	export FOX_AB_DEVICE=1
 	export OF_USE_GREEN_LED=0
@@ -58,7 +58,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
     # screen settings
 	export OF_SCREEN_H=1650
-	export OF_STATUS_H=80
+	export OF_STATUS_H=65
 	# We don't have physical buttons
 	export OF_ALLOW_DISABLE_NAVBAR=0
 	export OF_STATUS_INDENT_LEFT=48

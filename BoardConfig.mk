@@ -238,3 +238,5 @@ SHRP_OTG := /usb_otg
 SHRP_REC := /dev/block/by-name/boot
 SHRP_DARK := true
 SHRP_OFFICIAL := false
+
+-include $(DEVICE_PATH)/OrangeFoxConfig.mk
