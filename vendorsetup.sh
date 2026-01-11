@@ -58,7 +58,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
     # screen settings
 	export OF_SCREEN_H=1650
-	export OF_STATUS_H=50
+	export OF_STATUS_H=60
 	# We don't have physical buttons
 	export OF_ALLOW_DISABLE_NAVBAR=0
 	export OF_STATUS_INDENT_LEFT=48
