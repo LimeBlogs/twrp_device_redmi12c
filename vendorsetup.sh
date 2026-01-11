@@ -53,7 +53,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_DISABLE_MIUI_OTA_BY_DEFAULT=0
 
     # -- add settings for build version --
-    export OF_MAINTAINER="Terentyeff"
+    export OF_MAINTAINER="Lime"
     export FOX_BUILD_TYPE="Unofficial"
 
     # screen settings
